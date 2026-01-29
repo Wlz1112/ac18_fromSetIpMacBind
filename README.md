@@ -1,6 +1,6 @@
 
 
-Tenda AC18 V15.03.05.19 (6318) firmware has a buffer overflow vulnerability through the "fromSetSysTime" function.
+Tenda AC18 V15.03.05.19 (6318) firmware has a buffer overflow vulnerability through the "fromSetIpMacBind" function.
 
 Vulnerability description:
 
@@ -34,6 +34,7 @@ test_ac18_overflow(url)
 ```
 
 <img width="2122" height="875" alt="image" src="https://github.com/user-attachments/assets/63b9d635-98b7-48b4-a4a8-cc70d1bb8105" />
+
 
 
 
