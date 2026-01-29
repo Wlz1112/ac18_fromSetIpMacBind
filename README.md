@@ -6,7 +6,8 @@ Vulnerability description:
 
 The `fromSetIpMacBind` function of the Tenda router (AC18) has a high-risk **stack buffer overflow vulnerability**, which is caused by the program using `strcpy` to copy the user-controllable `list` parameters to the fixed stack buffer.
 
-![0521b39db2666034811eff14da3b497b](../../../Pictures/typora/0521b39db2666034811eff14da3b497b-17696638038162.png)
+<img width="1625" height="774" alt="image" src="https://github.com/user-attachments/assets/3ed962cd-4262-4108-9967-5b5234ee8ab3" />
+
 
 exp:
 
@@ -32,7 +33,8 @@ url = "http://192.168.0.3/goform/SetIpMacBind"
 test_ac18_overflow(url)
 ```
 
-![image-20260129151709676](../../../Pictures/typora/image-20260129151709676.png)
+<img width="2122" height="875" alt="image" src="https://github.com/user-attachments/assets/63b9d635-98b7-48b4-a4a8-cc70d1bb8105" />
+
 
 
 
