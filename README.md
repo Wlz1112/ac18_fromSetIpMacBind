@@ -1,4 +1,4 @@
-# Sorry, the vulnerability function is FromSetIpMacBind. The submitted vulnerability description is slightly wrong. The following description shall prevail.
+
 
 # Tenda AC18 V15.03.05.19 (6318) firmware has a buffer overflow vulnerability through the "fromSetIpMacBind" function.
 
@@ -38,6 +38,7 @@ test_ac18_overflow(url)
 
 After the Python script sends 512 'A's, `strcpy` fills the `dest` buffer with these 'A's and continues to flood out. Cause the service to crash.
 <img width="2122" height="875" alt="image" src="https://github.com/user-attachments/assets/63b9d635-98b7-48b4-a4a8-cc70d1bb8105" />
+
 
 
 
